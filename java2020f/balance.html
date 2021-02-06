@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+      <meta charset=UTF-8>
+
+      <link rel="stylesheet" href="style.css">
+      <title>残高照会</title>
+    </head>
+    <body>
+      <header>
+        <h1><font color="#F00#">残高照会</font></h1>
+      </header>
+
+      <section>        
+        <h3>残高照会する口座の名前を入力して「OK」ボタンを押して下さい。</h3>
+
+        <form action="bank" method="GET">
+          <input type="hidden" name="command" value="balance"/>
+          <p class="name">名前</p>
+          <input class="ocb-textfield" type="text" name="name"/>
+          <input class="submit-size" type="submit"  name="cmd"  value="OK"/>
+          <input class="submit-size" type="submit"  name="cmd"  value="CANCEL"/>
+        </form>
+      </section>
+
+      <footer>
+        <p >(c) Pakuten.com</p>
+      </footer>
+   </body>
+</html>

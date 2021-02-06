@@ -1,0 +1,142 @@
+body p{
+  color: red;
+  text-align: center;
+  }
+
+body {
+  background-color: gainsboro;
+  margin: 10px;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+  font-size: 60px;
+  margin: auto;
+}
+
+h2 {
+  color: red;
+  text-align: center;
+}
+
+h3 {
+  color: red;
+  text-align: center;
+  margin: 70px 0 20px 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.menu {
+  color: red;
+}
+
+.gakusekishimei {
+  font-size: 20px;
+  color: black;
+  text-align: left;
+  margin: 10px 0 0 10px;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container ul li {
+  display: inline-block;
+}
+
+.container ul li a {
+  text-decoration: none;
+}
+
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  }
+
+.btn:hover {
+  opacity: 1;
+}
+
+.msg {
+  padding: 15px 40px;
+  background-color: red;
+  cursor: pointer;
+  box-shadow: 0 7px #660000;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+
+.msg:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+form {
+  text-align: center;
+}
+
+.name {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+.name-amount {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+.amountfield {
+  margin-left: 113px;
+}
+
+.ocb-textfield {
+  margin-left: 160px;
+  width: 300px;
+  height: 30px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.textfield {
+  width: 300px;
+  height: 30px;
+  text-align: center;
+  font-size: 20px;
+}
+
+ .submit-size {
+  width: 80px;
+  height: 30px;
+  margin-bottom: 2px;
+} 
+
+footer p {
+  color: gray;
+  text-align: center;
+  margin-top: 300px;
+}
+
+.btn-menu {
+  text-align: center;
+  margin-left: 5px;
+}

@@ -1,0 +1,20 @@
+<web-app>
+ <servlet>
+    <servlet-name>Bank</servlet-name>
+    <servlet-class>BankServlet</servlet-class>
+ </servlet>
+  <servlet-mapping>
+    <servlet-name>Bank</servlet-name>
+    <url-pattern>/bank</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>HelloServlet</servlet-name>
+    <servlet-class>SampleServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HelloServlet</servlet-name>
+    <url-pattern>/greeting</url-pattern>
+  </servlet-mapping>
+</web-app>
+
