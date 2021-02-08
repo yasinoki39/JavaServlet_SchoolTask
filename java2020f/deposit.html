@@ -2,7 +2,6 @@
 <html lang="ja">
     <head>
       <meta charset=UTF-8>
-
       <link rel="stylesheet" href="style.css">
       <title>預金</title>
     </head>
@@ -13,14 +12,12 @@
 
       <section>
         <h3>預金する口座の名前と金額を入力して「OK」ボタンを押して下さい。</h3>
-
         <form action="bank" method="GET">
           <input type="hidden" name="command" value="deposit"/>
             <p class="name-amount">名前</p>
           <input class="textfield" type="text" name="name"/>
             <p class="name-amount">金額</p>
           <input class="amountfield textfield" type="text" name="amount"/>
-          
           <input type="submit"  name="cmd"  value="OK"/>
           <input type="submit"  name="cmd"  value="CANCEL"/>
         </form>
